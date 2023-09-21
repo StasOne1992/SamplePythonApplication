@@ -1,36 +1,35 @@
 
-
 # Стандартный ввод и вывод
-#first_name = input("Input your first name: ")
-#last_name=input("Input your last name: ")
-#middle_name =input("Input your middle name: ")
-#print ("Hello ", first_name,"!",sep="")
+first_name = input("Input your first name: ")
+last_name=input("Input your last name: ")
+middle_name =input("Input your middle name: ")
+print ("Hello ", first_name,"!",sep="")
 #Вывод f - строк
-#print (f"Hello, {last_name} {first_name} {middle_name}")
-#number = input ("Input number")
-#print ("Standart output ",number)
-#print ("F-string output 0000#")
-#print (f"{number:0>5}")
-#print ("F-string output #0000")
-#print (f"{number:0<5}")
-#print ("F-string output 00#00")
-#print (f"{number:0^5}")
+print (f"Hello, {last_name} {first_name} {middle_name}")
+number = input ("Input number")
+print ("Standart output ",number)
+print ("F-string output 0000#")
+print (f"{number:0>5}")
+print ("F-string output #0000")
+print (f"{number:0<5}")
+print ("F-string output 00#00")
+print (f"{number:0^5}")
 # back \ formating
 # \n go to new row
 # \t add tabulation
 # \r return to row start
 # \b return back one char
 # command "print ("\\")"  return \
-#print ("\\")
-#print (f"Hello, {last_name} {first_name} {middle_name}")
+print ("\\")
+print (f"Hello, {last_name} {first_name} {middle_name}")
 
 
 #Объединение строк
 
-#print ("Na"+"me")
+print ("Na"+"me")
 
 #Вывод нескольких символов подряд
-#print("*"*10)
+print("*"*10)
 
 #Динамическая типизация
 
